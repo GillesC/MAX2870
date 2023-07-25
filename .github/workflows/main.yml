@@ -12,7 +12,6 @@ jobs:
       - uses: ssciwr/doxygen-install@v1
       - uses: mattnotmitt/doxygen-action@v1.9.5
         with:
-          doxyfile-path: ./Doxyfile
           working-directory: .
           enable-latex: true
       - name: GH Pages Deployment
